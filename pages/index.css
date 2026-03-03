@@ -62,7 +62,7 @@
   margin: 183px 0 0;
 }
 
-.header__title__span-accent {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif", serif;
   font-style: italic;
@@ -104,7 +104,7 @@
   align-items: flex-end;
 }
 
-.header__footer_text {
+.header__footer-text {
   margin: 0;
 }
 
@@ -164,6 +164,6 @@
   margin: 0;
 }
 
-.iframe {
+.recipes__iframe {
   border: none;
 }
