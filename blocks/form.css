@@ -1,0 +1,74 @@
+.form__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  height: 60px;
+  padding: 0 32px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 385px;
+  height: 60px;
+  padding: 0 32px;
+  max-width: 385px;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background-color: #2f6edb;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__checkbox-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+}
